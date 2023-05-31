@@ -4,9 +4,13 @@ This repository contains a Python script that calcultes the number of states of 
 
 ## Table of Contents
 
-- [Author](#)
+- [Programming_Language](#programming-language)
+- [OS](#os)
+- [Author](#author)
 - [Description](#description)
-- [Sources](#)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Sources](#sources)
 
 ## Programming Language
 
@@ -21,7 +25,9 @@ Kali Linux 6.1.0
 ## Author
 
 **Juan Díaz** 
+
     * Personal [Github](https://github.com/Fuan200/) 
+
     * School [Github](https://github.com/JuanDiazuwu)
 
 ## Description
@@ -85,3 +91,13 @@ In which n = 2k - 1, can you clear `k` and something like this would remain:
 6. The script will calculate and output the number of possible states of those cube.
 
 Note: The value `n` only can be between 2 and 8.
+
+## Sources
+
+This project was inspired by the following video on Youtube:
+
+* Video [ESTO NO TIENE SENTIDO (🙈 ) | CINCO Cubos de RUBIK Increíbles | Unboxing](https://www.youtube.com/watch?v=Pe2ShBR496U)
+
+* Channel [TheMaoiSha](https://www.youtube.com/@TheMaoiSha)
+
+In this video Mayoneso explains how the formula works in more depth.
