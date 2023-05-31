@@ -1,6 +1,6 @@
 # Rubik's Cube State Calculator
 
-This repository contains a Python script that calcultes the number of states of a Rubik's Cube.
+This repository contains a Python script that calculates the number of states of a Rubik's Cube.
 
 ## Table of Contents
 
@@ -26,9 +26,9 @@ Kali Linux 6.1.0
 
 **Juan Díaz** 
 
-    * Personal [Github](https://github.com/Fuan200/) 
+* Personal [Github](https://github.com/Fuan200/) 
 
-    * School [Github](https://github.com/JuanDiazuwu)
+* School [Github](https://github.com/JuanDiazuwu)
 
 ## Description
 
