@@ -2,33 +2,9 @@
 
 This repository contains a Python script that calculates the number of states of a Rubik's Cube.
 
-## Table of Contents
-
-- [Programming_Language](#programming-language)
-- [OS](#os)
-- [Author](#author)
-- [Description](#description)
-- [Requirements](#requirements)
-- [Usage](#usage)
-- [Sources](#sources)
-
 ## Programming Language
 
 Python 3.11.2
-
-## OS 
-
-GNU/Linux
-
-Kali Linux 6.1.0
-
-## Author
-
-**Juan Díaz** 
-
-* Personal [Github](https://github.com/Fuan200/) 
-
-* School [Github](https://github.com/JuanDiazuwu)
 
 ## Description
 
@@ -101,3 +77,7 @@ This project was inspired by the following video on Youtube:
 * Channel [TheMaoiSha](https://www.youtube.com/@TheMaoiSha)
 
 In this video Mayoneso explains how the formula works in more depth.
+
+## Author
+
+:blue_heart: **Juan Antonio Díaz Fernández** - [Fuan200](https://github.com/Fuan200)
