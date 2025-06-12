@@ -14,21 +14,12 @@ def states(n):
         return result
     
 def main():
-    user_input = int(input('Type the value of n: '))
-    number = states(user_input)
-    uwu = "{:.0f}".format(number)
-    uwu = int(uwu)
-    owo = "{:,}".format(uwu)
-    print(f'Number of possible states in a cube {user_input}x{user_input}x{user_input} = {owo}\n')
+    cube_size = int(input('Type the value of n: '))
+    total_states = states(cube_size)
+
+    rounded_states = round(total_states)
+    formatted_states = f'{rounded_states:,}'
+    print(f'Number of possible states in a cube {cube_size}x{cube_size}x{cube_size} = {formatted_states}\n')
     
 if __name__ == '__main__':
     main()
-
-"""
-for i in range(2, 9):
-    number = states(i)
-    uwu = "{:.0f}".format(number)
-    uwu = int(uwu)
-    owo = "{:,}".format(uwu)
-    print(f'Number of possible states in a cube {i}x{i}x{i} = {owo}\n')
-"""
