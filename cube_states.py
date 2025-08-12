@@ -18,7 +18,7 @@ def main():
     total_states = states(cube_size)
 
     rounded_states = round(total_states)
-    formatted_states = f'{rounded_states:,}'
+    formatted_states = f'{rounded_states:,}'.replace(',', ' ')
     print(f'Number of possible states in a cube {cube_size}x{cube_size}x{cube_size} = {formatted_states}\n')
     
 if __name__ == '__main__':
