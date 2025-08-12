@@ -30,17 +30,20 @@ def to_scientific_notation(n, digits=3):
     return f"{mantissa}e+{exponent}"
 
 def main():
-    cube_size = int(input('Type the value of n: '))
-    total_states = states(cube_size)
+    try:
+        cube_size = int(input('Type the value of n: '))
+        total_states = states(cube_size)
 
-    rounded_states = round(total_states)
+        rounded_states = round(total_states)
 
-    if cube_size >= 6:
-        formatted_states = to_scientific_notation(rounded_states, digits=3)
-    else:
-        formatted_states = f'{rounded_states:,}'.replace(',', ' ')
+        if cube_size >= 6:
+            formatted_states = to_scientific_notation(rounded_states, digits=3)
+        else:
+            formatted_states = f'{rounded_states:,}'.replace(',', ' ')
 
-    print(f'Number of possible states in a cube {cube_size}x{cube_size}x{cube_size} = {formatted_states}\n')
+        print(f'Number of possible states in a cube {cube_size}x{cube_size}x{cube_size} = {formatted_states}\n')
+    except:
+        print('The number is too large')
     
 if __name__ == '__main__':
     main()
