@@ -1,8 +1,11 @@
+import sys
+sys.set_int_max_str_digits(10_000)
+
 import math
 from decimal import Decimal, getcontext
 
-# Establece la precisión para Decimal
-getcontext().prec = 3000
+getcontext().prec = 5000
+
 
 def is_even(n):
     return n % 2 == 0
